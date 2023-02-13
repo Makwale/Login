@@ -1,0 +1,23 @@
+.form-container{
+    position: relative; 
+    form, h1{
+        width: fit-content; 
+        position: absolute; 
+        top: 50%; transform: translate(-50%, -50%); 
+        left: 50%;
+    }
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+mat-form-field{
+    width: 400px;
+}
+
+@media screen and (max-width: 807px) {
+    .welcome-container{
+        display: none;
+    }
+}
